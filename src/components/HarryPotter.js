@@ -116,7 +116,8 @@ const HarryPotter = () => {
         />
         <ul>
           {data
-            .filter(item => item.species === 'human') // Shows only the humans
+            // Shows only the humans and those who does not have a house name
+            .filter(item => item.species === 'human' && item.house !== '')
             .map(item => (
               <li key={item.id}>
                 {/* <img className="charImg" src={item.image} alt="" /> */}
