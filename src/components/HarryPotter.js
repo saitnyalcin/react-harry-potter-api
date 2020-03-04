@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 // import HarryPotterLogo from '../images/harryPotterLogo.jpeg';
 // https://www.potterapi.com/v1/characters/?key=$2a$10$uW/huqiJSfRgNj9rrpdl8u4Ob1nhpJdQpA5PVt/aqDqi6S1YKU5Aa
+//http://hp-api.herokuapp.com/api/characters
 
 const HarryPotter = () => {
   const [data, setData] = useState([]);
@@ -114,22 +115,33 @@ const HarryPotter = () => {
           src="http://images5.fanpop.com/image/photos/26700000/Harry-Potter-characters-harry-potter-26761906-500-220.gif"
           alt=""
         />
-        <ul>
-          {data
-            // Shows only the humans and those who does not have a house name
-            .filter(
-              item =>
-                item.species === 'human' &&
-                item.house !== '' &&
-                item.yearOfBirth !== ''
-            )
-            .map(item => (
-              <li key={item.id}>
-                {/* <img className="charImg" src={item.image} alt="" /> */}
-                <b>{item.name}</b>, {item.yearOfBirth} , {item.house}
-              </li>
-            ))}
-        </ul>
+        {/* <ul> */}
+        {data
+          // Shows only the humans and those who does not have a house name
+          .filter(
+            item =>
+              item.species === 'human' &&
+              item.house !== '' &&
+              item.yearOfBirth !== ''
+          )
+          .map(item => (
+            <div className="card" key={item.id}>
+              <img
+                className="avatarImg"
+                src={item.image}
+                alt="Avatar"
+                style={{ width: '100%' }}
+              />
+              <div className="avatarDetails">
+                <h4>
+                  <b>{item.name}</b>
+                </h4>
+                {item.yearOfBirth} , {item.house}
+              </div>
+            </div>
+          ))}
+
+        {/* </ul> */}
         {/* </hr> */}
         <p>
           To know more about Harry Potter click{' '}
