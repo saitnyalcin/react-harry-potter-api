@@ -39,7 +39,7 @@ const HarryPotter = () => {
       <div class="container">
         <h1>Tribute To Harry Potter</h1>
         <h3>The Journey Of The Most Amazing Book-series Of The Millenium</h3>
-        {/* </hr> */}
+
         <p>
           Harry Potter is a series of fantasy novels written by British author
           <b> J. K. Rowling.</b> The novels chronicle the life of a young
@@ -55,13 +55,13 @@ const HarryPotter = () => {
           Philosopher's Stone, on 26 June 1997, the books have found immense
           popularity, critical acclaim, and commercial success worldwide. They
           have attracted a wide adult audience as well as younger readers, and
-          are often considered cornerstones of modern young adult literature.[2]
+          are often considered cornerstones of modern young adult literature.
           The series has also had its share of criticism, including concern
           about the increasingly dark tone as the series progressed, as well as
           the often gruesome and graphic violence it depicts. As of February
           2018, the books have sold more than 500 million copies worldwide,
           making them the best-selling book series in history, and have been
-          translated into eighty languages.[3] The last four books consecutively
+          translated into eighty languages. The last four books consecutively
           set records as the fastest-selling books in history, with the final
           instalment selling roughly eleven million copies in the United States
           within twenty-four hours of its release.
@@ -74,48 +74,48 @@ const HarryPotter = () => {
           original seven books were adapted into an eight-part film series by
           Warner Bros. Pictures, which is the third highest-grossing film series
           of all time as of February 2018. In 2016, the total value of the Harry
-          Potter franchise was estimated at $25 billion,[4] making Harry Potter
-          one of the highest-grossing media franchises of all time. A series of
-          many genres, including fantasy, drama, coming of age, and the British
+          Potter franchise was estimated at $25 billion, making Harry Potter one
+          of the highest-grossing media franchises of all time. A series of many
+          genres, including fantasy, drama, coming of age, and the British
           school story (which includes elements of mystery, thriller, adventure,
           horror, and romance), the world of Harry Potter explores numerous
-          themes and includes many cultural meanings and references.[5]
-          According to Rowling, the main theme is death.[6] Other major themes
-          in the series include prejudice, corruption, and madness. <br /> The
-          success of the books and films has allowed the Harry Potter franchise
-          to expand, with numerous derivative works, a travelling exhibition
-          that premiered in Chicago in 2009, a studio tour in London that opened
-          in 2012, a digital platform on which J.K. Rowling updates the series
-          with new information and insight, and a pentalogy of spin-off films
-          premiering in November 2016 with Fantastic Beasts and Where to Find
-          Them, among many other developments. Most recently, themed
-          attractions, collectively known as The Wizarding World of Harry
-          Potter, have been built at several Universal Parks & Resorts amusement
-          parks around the world.
+          themes and includes many cultural meanings and references. According
+          to Rowling, the main theme is death. Other major themes in the series
+          include prejudice, corruption, and madness. <br /> The success of the
+          books and films has allowed the Harry Potter franchise to expand, with
+          numerous derivative works, a travelling exhibition that premiered in
+          Chicago in 2009, a studio tour in London that opened in 2012, a
+          digital platform on which J.K. Rowling updates the series with new
+          information and insight, and a pentalogy of spin-off films premiering
+          in November 2016 with Fantastic Beasts and Where to Find Them, among
+          many other developments. Most recently, themed attractions,
+          collectively known as The Wizarding World of Harry Potter, have been
+          built at several Universal Parks & Resorts amusement parks around the
+          world.
         </p>
-        {/* </hr> */}
+
         <h3>The 7 Books</h3>
         <img
-          id="books"
+          id="booksImg"
           src="https://adoptingjames.files.wordpress.com/2014/11/wll8iikzcwcnx5gp6nh7.jpg"
           alt=""
         />
         <div>
           <ul>
             {harryPotterBookSeries.map(book => (
-              <li key={harryPotterBookSeries.id}>{book.name}</li>
+              <li key={book.id}>{book.name}</li>
             ))}
           </ul>
         </div>
 
-        {/* <hr> */}
         <h3>Characters</h3>
-        <img
+        {/* <img
           id="books"
           src="http://images5.fanpop.com/image/photos/26700000/Harry-Potter-characters-harry-potter-26761906-500-220.gif"
           alt=""
-        />
-        {/* <ul> */}
+        /> */}
+      </div>
+      <div className="flex-container">
         {data
           // Shows only the humans and those who does not have a house name
           .filter(
@@ -133,16 +133,17 @@ const HarryPotter = () => {
                 style={{ width: '100%' }}
               />
               <div className="avatarDetails">
-                <h4>
+                <div>
                   <b>{item.name}</b>
-                </h4>
-                {item.yearOfBirth} , {item.house}
+                </div>
+                {item.yearOfBirth}, {item.house}
+                <div>{item.actor}</div>
               </div>
             </div>
           ))}
+      </div>
 
-        {/* </ul> */}
-        {/* </hr> */}
+      <div className="footer">
         <p>
           To know more about Harry Potter click{' '}
           <a href="https://en.wikipedia.org/wiki/Harry_Potter">here.</a>
