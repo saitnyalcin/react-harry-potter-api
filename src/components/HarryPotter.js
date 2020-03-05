@@ -145,7 +145,7 @@ const HarryPotter = () => {
               item.yearOfBirth !== ''
           )
           .map(item => (
-            <div className="card" key={item.id}>
+            <div className="card" key={item.name}>
               <img
                 className="avatarImg"
                 src={item.image}
