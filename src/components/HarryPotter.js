@@ -25,6 +25,18 @@ const HarryPotter = () => {
 
   return (
     <React.Fragment>
+      <div class="snowflakes" aria-hidden="true">
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+        <div class="snowflake">❅</div>
+        <div class="snowflake">❆</div>
+        <div class="snowflake">❄</div>
+      </div>
       <div id="logo">{/* <img src={HarryPotterLogo} /> */}</div>
       <div class="centered">
         Happiness can be found, even in the darkest of times, if one only
