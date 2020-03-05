@@ -5,8 +5,9 @@ import axios from 'axios';
 //http://hp-api.herokuapp.com/api/characters
 
 const HarryPotter = () => {
-  const [data, setData] = useState([]);
+  const [data, setData] = useState([]); // set state for the character data
 
+  // set the array list of the book series
   const harryPotterBookSeries = [
     { id: 1, name: "The Philospher's Stone" },
     { id: 2, name: 'The Chamber Of Secrets' },
@@ -17,6 +18,7 @@ const HarryPotter = () => {
     { id: 7, name: 'The Deathly Hallows' }
   ];
 
+  // set axios data fetching library to make the request to harry potter api end points
   useEffect(() => {
     axios
       .get('http://hp-api.herokuapp.com/api/characters')
@@ -135,6 +137,7 @@ const HarryPotter = () => {
           alt=""
         /> */}
       </div>
+
       <div className="flex-container">
         {data
           // Shows only the humans and those who does not have a house name
