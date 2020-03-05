@@ -28,7 +28,7 @@ const HarryPotter = () => {
       <div id="logo">{/* <img src={HarryPotterLogo} /> */}</div>
       <div class="centered">
         Happiness can be found, even in the darkest of times, if one only
-        remembers to turn on the light. <br />{' '}
+        remembers to turn on the light. <br />
         <p className="author">- Harry Potter and the Prisoner of Azkaban</p>
       </div>
       <img
@@ -147,8 +147,8 @@ const HarryPotter = () => {
 
       <div className="footer">
         <p>
-          To know more about Harry Potter click{' '}
-          <a href="https://en.wikipedia.org/wiki/Harry_Potter">here.</a>
+          To know more about Harry Potter click
+          <a href="https://en.wikipedia.org/wiki/Harry_Potter"> here.</a>
         </p>
       </div>
     </React.Fragment>
