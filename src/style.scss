@@ -33,6 +33,13 @@
 
 /* Hover state - trigger effect */
 
+// zooms in the char card view to see details more clearly
+.card:hover {
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
+}
+
 .card:hover:after {
   opacity: 1;
   top: -30%;
