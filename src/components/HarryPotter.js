@@ -48,10 +48,13 @@ const HarryPotter = () => {
         src="http://getwallpapers.com/wallpaper/full/9/4/0/17379.jpg"
         alt=""
       />
-      <img
-        src="https://i0.wp.com/freepngimages.com/wp-content/uploads/2016/11/harry-potter.png?fit=895%2C895"
-        class="harry-potter"
-      ></img>
+
+      <div className="harry-floating">
+        <img
+          src="https://i0.wp.com/freepngimages.com/wp-content/uploads/2016/11/harry-potter.png?fit=895%2C895"
+          class="harry-potter"
+        ></img>
+      </div>
       <div class="container">
         <h1>Tribute To Harry Potter</h1>
         <h3>The Journey Of The Most Amazing Book-series Of The Millenium</h3>
