@@ -136,7 +136,9 @@ const HarryPotter = () => {
                 <div>
                   <b>{item.name}</b>
                 </div>
-                {item.yearOfBirth}, {item.house}
+                <div>
+                  {item.yearOfBirth}, {item.house}
+                </div>
                 <div>{item.actor}</div>
               </div>
             </div>
