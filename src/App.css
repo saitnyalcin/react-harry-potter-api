@@ -50,6 +50,7 @@ body {
 }
 
 /* Centered text */
+
 .centered {
   position: absolute;
   top: 50%;
@@ -81,9 +82,7 @@ body {
   }
 }
 
-/* Centered text */
-
-#castle {
+.castle {
   height: 100%;
   width: 100%;
   padding: 10px 0;
@@ -157,7 +156,6 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  /* background-color: honeydew; */
   background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/5nViubjcRMMc9U1hsgWHXf/20cdbf8454d516804d9cae2208018289/MinaLima_Black_Family_Tapestry_wallpaper_roll.jpg');
   background-attachment: fixed;
 }
@@ -175,6 +173,7 @@ ul {
 }
 
 /* customizable snowflake styling */
+
 .snowflake {
   color: #fff;
   font-size: 1em;

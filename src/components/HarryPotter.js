@@ -25,37 +25,38 @@ const HarryPotter = () => {
 
   return (
     <React.Fragment>
-      <div class="snowflakes" aria-hidden="true">
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❆</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❆</div>
-        <div class="snowflake">❄</div>
-        <div class="snowflake">❅</div>
-        <div class="snowflake">❆</div>
-        <div class="snowflake">❄</div>
+      <div className="snowflakes" aria-hidden="true">
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
+        <div className="snowflake">❅</div>
+        <div className="snowflake">❆</div>
+        <div className="snowflake">❄</div>
       </div>
-      <div id="logo">{/* <img src={HarryPotterLogo} /> */}</div>
-      <div class="centered">
+      {/* <div className="logo"><img src={HarryPotterLogo} /></div> */}
+      <div className="centered">
         Happiness can be found, even in the darkest of times, if one only
         remembers to turn on the light. <br />
         <p className="author">- Harry Potter and the Prisoner of Azkaban</p>
       </div>
       <img
-        id="castle"
+        className="castle"
         src="http://getwallpapers.com/wallpaper/full/9/4/0/17379.jpg"
-        alt=""
+        alt="Hogwarts"
       />
 
       <div className="harry-floating">
         <img
           src="https://i0.wp.com/freepngimages.com/wp-content/uploads/2016/11/harry-potter.png?fit=895%2C895"
-          class="harry-potter"
+          className="harry-potter"
+          alt="Harry Potter"
         ></img>
       </div>
-      <div class="container">
+      <div className="container">
         <h1>Tribute To Harry Potter</h1>
         <h3>The Journey Of The Most Amazing Book-series Of The Millenium</h3>
 
