@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-// import HarryPotterLogo from '../images/harryPotterLogo.jpeg';
+
 // https://www.potterapi.com/v1/characters/?key=$2a$10$uW/huqiJSfRgNj9rrpdl8u4Ob1nhpJdQpA5PVt/aqDqi6S1YKU5Aa
 //http://hp-api.herokuapp.com/api/characters
 
@@ -55,6 +55,13 @@ const HarryPotter = () => {
         <img
           src="https://i0.wp.com/freepngimages.com/wp-content/uploads/2016/11/harry-potter.png?fit=895%2C895"
           className="harry-potter"
+          alt="Harry Potter"
+        ></img>
+      </div>
+      <div className="harry-logo">
+        <img
+          src="https://lh5.googleusercontent.com/proxy/EZZ35TLiTKJi4aL8ShppHuQwCjUEy67UckzJMHZvJhUwBHNDOtZ6d23PtsLEWX2Dzfho4y-No4tcrhonhXsXK6H4pAE8IH6HeH864l6-qxrQhA"
+          className="harry-potter-logo"
           alt="Harry Potter"
         ></img>
       </div>

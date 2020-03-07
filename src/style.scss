@@ -49,7 +49,7 @@
   transition-timing-function: ease;
 }
 
-/* Harry Potter Floating style */
+/* Harry Potter image Floating style */
 
 .harry-floating img {
   position: absolute;
@@ -67,6 +67,27 @@
 .harry-potter {
   top: 25px;
   left: 1px;
+  z-index: 2;
+}
+
+/* Harry Potter logo Floating style */
+
+.harry-logo img {
+  position: absolute;
+  width: 25em;
+  height: 20em;
+  overflow: hidden;
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.4s ease-in-out;
+  &:hover {
+    color: #ffffff;
+  }
+}
+
+.harry-potter-logo {
+  top: 0px;
+  left: 520px;
   z-index: 2;
 }
 
