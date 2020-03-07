@@ -133,7 +133,7 @@ ul {
 .card {
   height: 5%;
   width: 12%;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 10px 0 rgb(191, 63, 63);
   transition: 0.3s;
 }
 
