@@ -5,6 +5,7 @@
 .card {
   position: relative;
   overflow: hidden;
+  filter: blur(5px);
 }
 
 /**
@@ -35,6 +36,7 @@
 
 // zooms in the char card view to see details more clearly
 .card:hover {
+  filter: blur(0px);
   -ms-transform: scale(1.2); /* IE 9 */
   -webkit-transform: scale(1.2); /* Safari 3-8 */
   transform: scale(1.2);
