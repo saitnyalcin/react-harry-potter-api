@@ -63,7 +63,7 @@ const HarryPotter = () => {
           src="https://lh5.googleusercontent.com/proxy/EZZ35TLiTKJi4aL8ShppHuQwCjUEy67UckzJMHZvJhUwBHNDOtZ6d23PtsLEWX2Dzfho4y-No4tcrhonhXsXK6H4pAE8IH6HeH864l6-qxrQhA"
           className="harry-potter-logo"
           alt="Harry Potter"
-        ></img>
+        />
       </div>
       <div className="container">
         <h1>Tribute To Harry Potter</h1>
@@ -122,28 +122,22 @@ const HarryPotter = () => {
           built at several Universal Parks & Resorts amusement parks around the
           world.
         </p>
+      </div>
 
+      <div className="harry-books">
         <h3>The 7 Books</h3>
         <img
-          id="booksImg"
           src="https://adoptingjames.files.wordpress.com/2014/11/wll8iikzcwcnx5gp6nh7.jpg"
           alt=""
         />
-        <div>
-          <ul>
-            {harryPotterBookSeries.map(book => (
-              <li key={book.id}>{book.name}</li>
-            ))}
-          </ul>
-        </div>
-
-        <h3>Characters</h3>
-        {/* <img
-          id="books"
-          src="http://images5.fanpop.com/image/photos/26700000/Harry-Potter-characters-harry-potter-26761906-500-220.gif"
-          alt=""
-        /> */}
+        <ul>
+          {harryPotterBookSeries.map(book => (
+            <li key={book.id}>{book.name}</li>
+          ))}
+        </ul>
       </div>
+
+      <h3>Characters</h3>
 
       <div className="flex-container">
         {data
