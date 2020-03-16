@@ -1,28 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import harryPotterBookSeries from '../services/bookService.json';
+import AuthenticationAPI from '../services/characterService';
 
-// https://www.potterapi.com/v1/characters/?key=$2a$10$uW/huqiJSfRgNj9rrpdl8u4Ob1nhpJdQpA5PVt/aqDqi6S1YKU5Aa
-//http://hp-api.herokuapp.com/api/characters
+//https://www.potterapi.com/v1/characters/?key=$2a$10$uW/huqiJSfRgNj9rrpdl8u4Ob1nhpJdQpA5PVt/aqDqi6S1YKU5Aa
 
 const HarryPotter = () => {
   const [data, setData] = useState([]); // set state for the character data
 
-  // set the array list of the book series
-  const harryPotterBookSeries = [
-    { id: 1, name: "The Philospher's Stone" },
-    { id: 2, name: 'The Chamber Of Secrets' },
-    { id: 3, name: 'The Prisoner Of Askaban' },
-    { id: 4, name: 'The Goblet Of Fire' },
-    { id: 5, name: 'The Order Of The Phoenix' },
-    { id: 6, name: 'The Half-Blood Prince' },
-    { id: 7, name: 'The Deathly Hallows' }
-  ];
-
   // set axios data fetching library to make the request to harry potter api end points
   useEffect(() => {
-    axios
-      .get('http://hp-api.herokuapp.com/api/characters')
-      .then(result => setData(result.data));
+    axios.get(AuthenticationAPI.API_URL()).then(result => setData(result.data));
   }, []);
 
   return (

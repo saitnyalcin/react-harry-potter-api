@@ -1,0 +1,9 @@
+[
+  { "id": 1, "name": "The Philospher's Stone" },
+  { "id": 2, "name": "The Chamber Of Secrets" },
+  { "id": 3, "name": "The Prisoner Of Askaban" },
+  { "id": 4, "name": "The Goblet Of Fire" },
+  { "id": 5, "name": "The Order Of The Phoenix" },
+  { "id": 6, "name": "The Half-Blood Prince" },
+  { "id": 7, "name": "The Deathly Hallows" }
+]
