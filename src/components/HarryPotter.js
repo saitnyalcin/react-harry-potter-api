@@ -24,8 +24,6 @@ const HarryPotter = () => {
         <div className="snowflake">❆</div>
         <div className="snowflake">❄</div>
         <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
-        <div className="snowflake">❄</div>
       </div>
       {/* <div className="logo"><img src={HarryPotterLogo} /></div> */}
       <div className="centered">
