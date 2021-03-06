@@ -1,16 +1,26 @@
-import React, { useEffect, useState } from 'react';
-import axios from 'axios';
-import harryPotterBookSeries from '../services/bookService.json';
-import AuthenticationAPI from '../services/characterService';
+import React, { useEffect, useState } from "react";
+import harryPotterBookSeries from "../services/bookService.json";
+import AuthenticationAPI from "../services/characterService";
 
 //https://www.potterapi.com/v1/characters/?key=$2a$10$uW/huqiJSfRgNj9rrpdl8u4Ob1nhpJdQpA5PVt/aqDqi6S1YKU5Aa
 
 const HarryPotter = () => {
   const [data, setData] = useState([]); // set state for the character data
 
-  // set axios data fetching library to make the request to harry potter api end points
+  async function callHarryPotterApi() {
+    await fetch(AuthenticationAPI.API_URL())
+      .then((response) => response.json())
+      .then((data) => setData(data))
+      .then((result) => {
+        console.log("Success:", result);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
+  }
+
   useEffect(() => {
-    axios.get(AuthenticationAPI.API_URL()).then(result => setData(result.data));
+    callHarryPotterApi();
   }, []);
 
   return (
@@ -113,11 +123,11 @@ const HarryPotter = () => {
       <div className="harry-books">
         <h3>The 7 Books</h3>
         <img
-          src="https://adoptingjames.files.wordpress.com/2014/11/wll8iikzcwcnx5gp6nh7.jpg"
+          src="https://www.pngkey.com/png/full/714-7148896_harry-potter-books-png.png"
           alt=""
         />
         <ul>
-          {harryPotterBookSeries.map(book => (
+          {harryPotterBookSeries.map((book) => (
             <li key={book.id}>{book.name}</li>
           ))}
         </ul>
@@ -129,18 +139,18 @@ const HarryPotter = () => {
         {data
           // Shows only the humans and those who does not have a house name
           .filter(
-            item =>
-              item.species === 'human' &&
-              item.house !== '' &&
-              item.yearOfBirth !== ''
+            (item) =>
+              item.species === "human" &&
+              item.house !== "" &&
+              item.yearOfBirth !== ""
           )
-          .map(item => (
+          .map((item) => (
             <div className="card" key={item.name}>
               <img
                 className="avatarImg"
                 src={item.image}
                 alt="Avatar"
-                style={{ width: '100%' }}
+                style={{ width: "100%" }}
               />
               <div className="avatarDetails">
                 <div>
