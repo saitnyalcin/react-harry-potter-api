@@ -25,7 +25,7 @@ const HarryPotter = () => {
 
   return (
     <React.Fragment>
-      <div className="snowflakes" aria-hidden="true">
+      {/* <div className="snowflakes" aria-hidden="true">
         <div className="snowflake">❅</div>
         <div className="snowflake">❅</div>
         <div className="snowflake">❆</div>
@@ -34,7 +34,7 @@ const HarryPotter = () => {
         <div className="snowflake">❆</div>
         <div className="snowflake">❄</div>
         <div className="snowflake">❅</div>
-      </div>
+      </div> */}
       {/* <div className="logo"><img src={HarryPotterLogo} /></div> */}
       <div className="centered">
         Happiness can be found, even in the darkest of times, if one only
@@ -49,7 +49,7 @@ const HarryPotter = () => {
 
       <div className="harry-floating">
         <img
-          src="https://i0.wp.com/freepngimages.com/wp-content/uploads/2016/11/harry-potter.png?fit=895%2C895"
+          src="https://www.pngplay.com/wp-content/uploads/7/Harry-Potter-Background-PNG-Image.png"
           className="harry-potter"
           alt="Harry Potter"
         ></img>
@@ -162,7 +162,8 @@ const HarryPotter = () => {
                 <div>{item.actor}</div>
               </div>
             </div>
-          ))}
+          ))
+          .slice(0, 15)}
       </div>
 
       <div className="footer">
