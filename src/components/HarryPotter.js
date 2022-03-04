@@ -35,7 +35,7 @@ const HarryPotter = () => {
         <div className="snowflake">❄</div>
         <div className="snowflake">❅</div>
       </div> */}
-      {/* <div className="logo"><img src={HarryPotterLogo} /></div> */}
+
       <div className="centered">
         Happiness can be found, even in the darkest of times, if one only
         remembers to turn on the light. <br />
