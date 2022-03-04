@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from "react";
 import harryPotterBookSeries from "../services/bookService.json";
 import AuthenticationAPI from "../services/characterService";
-
-//https://www.potterapi.com/v1/characters/?key=$2a$10$uW/huqiJSfRgNj9rrpdl8u4Ob1nhpJdQpA5PVt/aqDqi6S1YKU5Aa
+import harryPotterLogo from "../images/harry-potter-logo.png";
+import harryPotterImage from "../images/harry-potter-floating.png";
+import hogwartsBackground from "../images/Hogwarts-bg.jpeg";
 
 const HarryPotter = () => {
   const [data, setData] = useState([]); // set state for the character data
@@ -25,38 +26,31 @@ const HarryPotter = () => {
 
   return (
     <React.Fragment>
-      {/* <div className="snowflakes" aria-hidden="true">
+      <div className="snowflakes" aria-hidden="true">
         <div className="snowflake">❅</div>
         <div className="snowflake">❅</div>
         <div className="snowflake">❆</div>
         <div className="snowflake">❄</div>
-        <div className="snowflake">❅</div>
-        <div className="snowflake">❆</div>
         <div className="snowflake">❄</div>
-        <div className="snowflake">❅</div>
-      </div> */}
+      </div>
 
       <div className="centered">
         Happiness can be found, even in the darkest of times, if one only
         remembers to turn on the light. <br />
         <p className="author">- Harry Potter and the Prisoner of Azkaban</p>
       </div>
-      <img
-        className="castle"
-        src="http://getwallpapers.com/wallpaper/full/9/4/0/17379.jpg"
-        alt="Hogwarts"
-      />
+      <img className="castle" src={hogwartsBackground} alt="Hogwarts" />
 
       <div className="harry-floating">
         <img
-          src="https://www.pngplay.com/wp-content/uploads/7/Harry-Potter-Background-PNG-Image.png"
+          src={harryPotterImage}
           className="harry-potter"
           alt="Harry Potter"
         ></img>
       </div>
       <div className="harry-logo">
         <img
-          src="https://lh5.googleusercontent.com/proxy/EZZ35TLiTKJi4aL8ShppHuQwCjUEy67UckzJMHZvJhUwBHNDOtZ6d23PtsLEWX2Dzfho4y-No4tcrhonhXsXK6H4pAE8IH6HeH864l6-qxrQhA"
+          src={harryPotterLogo}
           className="harry-potter-logo"
           alt="Harry Potter"
         />

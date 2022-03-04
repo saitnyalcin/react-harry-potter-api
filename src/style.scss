@@ -55,7 +55,7 @@
 
 .harry-floating img {
   position: absolute;
-  width: 25em;
+  width: 20em;
   height: 20em;
   overflow: hidden;
   transform: translatey(0px);
@@ -67,8 +67,8 @@
 }
 
 .harry-potter {
-  top: 25px;
-  left: 1px;
+  top: 55px;
+  left: 25px;
   z-index: 2;
 }
 
@@ -76,8 +76,8 @@
 
 .harry-logo img {
   position: absolute;
-  width: 25em;
-  height: 20em;
+  width: 50em;
+  height: 25em;
   overflow: hidden;
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
@@ -89,7 +89,7 @@
 
 .harry-potter-logo {
   top: 0px;
-  left: 520px;
+  left: 475px;
   z-index: 2;
 }
 
