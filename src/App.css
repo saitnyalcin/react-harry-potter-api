@@ -1,9 +1,9 @@
 /* Harry Potter styling */
 
-@import url('https://fonts.googleapis.com/css?family=Montez|Sofia');
+@import url("https://fonts.googleapis.com/css?family=Montez|Sofia");
 
 body {
-  font-family: 'Sofia', cursive;
+  font-family: "Sofia", cursive;
 }
 
 #logo {
@@ -68,7 +68,7 @@ h3 {
 
 p {
   font-size: 20px;
-  font-family: 'Montez', cursive;
+  font-family: "Montez", cursive;
 }
 
 ul {
@@ -119,14 +119,14 @@ ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  background-image: url('https://images.ctfassets.net/usf1vwtuqyxm/5nViubjcRMMc9U1hsgWHXf/20cdbf8454d516804d9cae2208018289/MinaLima_Black_Family_Tapestry_wallpaper_roll.jpg');
+  background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/5nViubjcRMMc9U1hsgWHXf/20cdbf8454d516804d9cae2208018289/MinaLima_Black_Family_Tapestry_wallpaper_roll.jpg");
   background-attachment: fixed;
   padding: 2%;
 }
 
 .flex-container > div {
   /* background-color: #f1f1f1; */
-  background-image: url('https://lh6.googleusercontent.com/proxy/yjXiVu7aRjXFsJ5EzxlmkNGmjuIr4kT4krHOcoI6oFJYgJ11AeLFQv68yaNKYpM8nTJnrPAfKzqk5vGIp3Xt0DvM');
+  background-image: url("https://lh6.googleusercontent.com/proxy/yjXiVu7aRjXFsJ5EzxlmkNGmjuIr4kT4krHOcoI6oFJYgJ11AeLFQv68yaNKYpM8nTJnrPAfKzqk5vGIp3Xt0DvM");
   background-repeat: no-repeat;
   background-position-x: -3.9em;
   background-position-y: -0.9em;
@@ -259,7 +259,7 @@ ul {
 }
 /* Demo Purpose Only*/
 .demo {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #fff;
   display: block;
   margin: 0 auto;
@@ -267,7 +267,7 @@ ul {
   text-align: center;
 }
 .demo a {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #000;
 }
 
