@@ -19,7 +19,7 @@ const App = () => {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 5000);
+    }, 6000);
   }, []);
 
   return (
@@ -27,10 +27,11 @@ const App = () => {
       {loading ? (
         <div className="loading">
           <div>
-            <div>Loading . . .</div>
+            <div>The magic is loading . . .</div>
             <Lottie options={defaultOptions} height={400} width={400} />
-            <div style={{ fontSize: "3rem", fontFamily: "Arial" }}>
-              It's LeviOsa not LeviosAAAA...
+            <div className="quotation">
+              <span>&#8220;</span> It's LeviOsa not LeviosAAAA...
+              <span>&#8221;</span>
             </div>
           </div>
         </div>
