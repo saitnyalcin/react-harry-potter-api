@@ -48,12 +48,10 @@ const HarryPotter = () => {
           alt="Harry Potter"
         ></img>
       </div>
-      <div className="harry-logo">
-        <img
-          src={harryPotterLogo}
-          className="harry-potter-logo"
-          alt="Harry Potter"
-        />
+      <div className="harry-potter-title">
+        <div className="harry-potter-title-wrap">
+          <img src={harryPotterLogo} alt="Harry Potter" />
+        </div>
       </div>
       <div className="container">
         <h1>Tribute To Harry Potter</h1>
