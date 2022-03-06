@@ -5,7 +5,7 @@
 .card {
   position: relative;
   overflow: hidden;
-  filter: blur(0px);
+  filter: blur(2px);
 }
 
 /**
@@ -59,11 +59,11 @@
   height: 20em;
   overflow: hidden;
   transform: translatey(0px);
-  animation: float 6s ease-in-out infinite;
-  transition: all 0.4s ease-in-out;
-  &:hover {
-    color: #ffffff;
-  }
+  // animation: float 6s ease-in-out infinite;
+  // transition: all 0.4s ease-in-out;
+  // &:hover {
+  //   color: #ffffff;
+  // }
 }
 
 .harry-potter {
@@ -82,14 +82,11 @@
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease-in-out;
-  &:hover {
-    color: #ffffff;
-  }
 }
 
 .harry-potter-logo {
   top: 0px;
-  left: 475px;
+  left: 555px;
   z-index: 2;
 }
 
