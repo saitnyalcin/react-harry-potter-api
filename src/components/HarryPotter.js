@@ -3,7 +3,7 @@ import harryPotterBookSeries from "../services/bookService.json";
 import AuthenticationAPI from "../services/characterService";
 import harryPotterLogo from "../images/harry-potter-logo.png";
 import harryPotterImage from "../images/harry-potter-floating.png";
-import hogwartsBackground from "../images/Hogwarts-bg.jpeg";
+import hogwartsBackground from "../images/bg.jpeg";
 
 const HarryPotter = () => {
   const [data, setData] = useState([]); // set state for the character data
@@ -26,11 +26,17 @@ const HarryPotter = () => {
 
   return (
     <React.Fragment>
+      <div className="ag-sparks">
+        <div className="ag-spark"></div>
+        <div className="ag-lightning"></div>
+      </div>
+
       <div className="centered">
         Happiness can be found, even in the darkest of times, if one only
         remembers to turn on the light. <br />
         <p className="author">- Harry Potter and the Prisoner of Azkaban</p>
       </div>
+
       <img className="castle" src={hogwartsBackground} alt="Hogwarts" />
 
       <div className="harry-floating">
@@ -103,7 +109,6 @@ const HarryPotter = () => {
           world.
         </p>
       </div>
-
       <div className="harry-books">
         <h3>The 7 Books</h3>
         <img
@@ -116,9 +121,7 @@ const HarryPotter = () => {
           ))}
         </ul>
       </div>
-
       <h3>Characters</h3>
-
       <div className="flex-container">
         {data
           // Shows only the humans and those who does not have a house name
@@ -149,7 +152,6 @@ const HarryPotter = () => {
           ))
           .slice(0, 15)}
       </div>
-
       <div className="footer">
         <p>
           To know more about Harry Potter click
