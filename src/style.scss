@@ -55,15 +55,11 @@
 
 .harry-floating img {
   position: absolute;
-  width: 20em;
-  height: 20em;
+  width: 30em;
+  height: 30em;
   overflow: hidden;
   transform: translatey(0px);
   // animation: float 6s ease-in-out infinite;
-  // transition: all 0.4s ease-in-out;
-  // &:hover {
-  //   color: #ffffff;
-  // }
 }
 
 .harry-potter {
@@ -74,20 +70,29 @@
 
 /* Harry Potter logo Floating style */
 
-.harry-logo img {
+.harry-potter-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.harry-potter-title-wrap {
+  width: 100%; /*or whatever you choose*/
+  margin: auto;
+  z-index: 2;
+}
+.harry-potter-title-wrap img {
+  top: 0;
+  left: 0;
+  right: 0;
   position: absolute;
-  width: 50em;
-  height: 25em;
   overflow: hidden;
   transform: translatey(0px);
   animation: float 6s ease-in-out infinite;
   transition: all 0.4s ease-in-out;
-}
-
-.harry-potter-logo {
-  top: 0px;
-  left: 555px;
-  z-index: 2;
+  width: 100%;
+  width: 55em;
+  height: auto; /* maintain aspect ratio*/
+  margin: auto; /*optional centering of image*/
 }
 
 @keyframes float {
