@@ -33,7 +33,7 @@ const HarryPotter = () => {
 
       <div className="centered">
         Happiness can be found, even in the darkest of times, if one only
-        remembers to turn on the light. <br />
+        remembers to turn on the light.
         <p className="author">- Harry Potter and the Prisoner of Azkaban</p>
       </div>
 
