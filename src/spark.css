@@ -1,14 +1,19 @@
-.ag-format-container {
-  width: 1142px;
-  margin: 0 auto;
-}
-.ag-sparks {
-  position: fixed;
+html,
+body {
   height: 100%;
   width: 100%;
-  top: 0;
-  right: 0;
-  left: 0;
+  /* overflow: hidden; */
+}
+
+.ag-format-container {
+  width: auto;
+  margin: 0 auto;
+}
+
+.ag-sparks {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 .ag-sparks:before,
 .ag-sparks:after {
@@ -41,12 +46,21 @@
 
   will-change: transform;
 
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 200px;
 }
+
+.ag-lightning {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
 .ag-spark:before {
   -webkit-animation: an-spark 1800s linear infinite,
     an-slow-shake 26s linear 13s infinite;
@@ -68,13 +82,6 @@
     an-slow-shake-revert 26s linear infinite;
 }
 
-.ag-lightning {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
 .ag-lightning:before,
 .ag-lightning:after {
   content: "";

@@ -55,8 +55,8 @@
 
 .harry-floating img {
   position: absolute;
-  width: 20em;
-  height: 20em;
+  width: 30em;
+  height: 30em;
   overflow: hidden;
   transform: translatey(0px);
   // animation: float 6s ease-in-out infinite;
@@ -65,7 +65,7 @@
 .harry-potter {
   top: 55px;
   left: 25px;
-  z-index: 2;
+  z-index: 3;
 }
 
 /* Harry Potter logo Floating style */
