@@ -4,6 +4,7 @@ import animationData from "../src/lotties/leviosa.json";
 import "./App.css";
 import HarryPotter from "./components/HarryPotter";
 import "./style.scss";
+import "./spark.css";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
