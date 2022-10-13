@@ -134,8 +134,7 @@ ul {
 }
 
 .flex-container > div {
-  /* background-color: #f1f1f1; */
-  background-image: url("https://lh6.googleusercontent.com/proxy/yjXiVu7aRjXFsJ5EzxlmkNGmjuIr4kT4krHOcoI6oFJYgJ11AeLFQv68yaNKYpM8nTJnrPAfKzqk5vGIp3Xt0DvM");
+  background-color: #f1f1f1;
   background-repeat: no-repeat;
   background-position-x: -3.9em;
   background-position-y: -0.9em;
