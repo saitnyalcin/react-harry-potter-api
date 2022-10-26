@@ -25,32 +25,35 @@ const HarryPotter = () => {
   }, []);
 
   return (
-    <React.Fragment>
-      <div className="ag-sparks">
-        <div className="ag-spark"></div>
-        <div className="ag-lightning"></div>
-      </div>
+    <>
+      <div className="mobileView">
+        <div className="ag-sparks">
+          <div className="ag-spark"></div>
+          <div className="ag-lightning"></div>
+        </div>
 
-      <div className="centered">
-        Happiness can be found, even in the darkest of times, if one only
-        remembers to turn on the light.
-        <p className="author">- Harry Potter and the Prisoner of Azkaban</p>
-      </div>
+        <div className="centered">
+          Happiness can be found, even in the darkest of times, if one only
+          remembers to turn on the light.
+          <p className="author">- Harry Potter and the Prisoner of Azkaban</p>
+        </div>
 
-      <img className="castle" src={hogwartsBackground} alt="Hogwarts" />
+        <img className="castle" src={hogwartsBackground} alt="Hogwarts" />
 
-      <div className="harry-floating">
-        <img
-          src={harryPotterImage}
-          className="harry-potter"
-          alt="Harry Potter"
-        ></img>
-      </div>
-      <div className="harry-potter-title">
-        <div className="harry-potter-title-wrap">
-          <img src={harryPotterLogo} alt="Harry Potter" />
+        <div className="harry-floating">
+          <img
+            src={harryPotterImage}
+            className="harry-potter"
+            alt="Harry Potter"
+          ></img>
+        </div>
+        <div className="harry-potter-title">
+          <div className="harry-potter-title-wrap">
+            <img src={harryPotterLogo} alt="Harry Potter" />
+          </div>
         </div>
       </div>
+
       <div className="container">
         <h1>Tribute To Harry Potter</h1>
         <h3>The Journey Of The Most Amazing Book-series Of The Millenium</h3>
@@ -158,7 +161,7 @@ const HarryPotter = () => {
           <a href="https://en.wikipedia.org/wiki/Harry_Potter"> here.</a>
         </p>
       </div>
-    </React.Fragment>
+    </>
   );
 };
 

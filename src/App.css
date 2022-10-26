@@ -8,6 +8,12 @@ body {
   width: 100%;
 }
 
+.App {
+  font-family: "Sofia", cursive;
+  height: 100%;
+  width: 100%;
+}
+
 .quotation {
   font-size: xx-large;
 }
@@ -115,8 +121,6 @@ ul {
 
 .avatarImg {
   border-radius: 2em;
-  height: 16em;
-  width: 4em;
 }
 
 .card:hover {
@@ -147,4 +151,17 @@ ul {
 
 .footer {
   text-align: center;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .mobileView {
+    display: none;
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
 }
