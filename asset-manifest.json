@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/react-harry-potter-api/static/css/main.625c62de.css",
-    "main.js": "/react-harry-potter-api/static/js/main.fa066735.js",
+    "main.css": "/react-harry-potter-api/static/css/main.374efdc2.css",
+    "main.js": "/react-harry-potter-api/static/js/main.18b825d6.js",
     "static/media/harry-potter-floating.png": "/react-harry-potter-api/static/media/harry-potter-floating.fe02e81537ed8dfb51d2.png",
     "static/media/harry-potter-logo.png": "/react-harry-potter-api/static/media/harry-potter-logo.4ec78704d007a53565f3.png",
     "static/media/bg.jpeg": "/react-harry-potter-api/static/media/bg.d56de94095f66e8b8404.jpeg",
+    "static/media/harry-potter-glass.png": "/react-harry-potter-api/static/media/harry-potter-glass.718ecc83d9005214160f.png",
     "index.html": "/react-harry-potter-api/index.html",
-    "main.625c62de.css.map": "/react-harry-potter-api/static/css/main.625c62de.css.map",
-    "main.fa066735.js.map": "/react-harry-potter-api/static/js/main.fa066735.js.map"
+    "main.374efdc2.css.map": "/react-harry-potter-api/static/css/main.374efdc2.css.map",
+    "main.18b825d6.js.map": "/react-harry-potter-api/static/js/main.18b825d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.625c62de.css",
-    "static/js/main.fa066735.js"
+    "static/css/main.374efdc2.css",
+    "static/js/main.18b825d6.js"
   ]
 }
