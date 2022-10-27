@@ -9,7 +9,6 @@ body {
 }
 
 .App {
-  font-family: "Sofia", cursive;
   height: 100%;
   width: 100%;
 }
@@ -104,23 +103,31 @@ ul {
 .container > p {
   font-size: 1.3em;
   text-align: center;
-  margin: 5%;
+  margin: 10px;
+}
+
+.hp-glass {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 175px;
+  width: 150px;
 }
 
 .card {
-  height: 5%;
-  width: 12%;
+  height: 400px;
+  width: 200px;
   box-shadow: 0 4px 10px 0 rgb(191, 63, 63);
   transition: 0.3s;
 }
 
 .avatarDetails {
-  font-size: 1em;
   text-align: center;
 }
 
 .avatarImg {
-  border-radius: 2em;
+  border-radius: 50px;
 }
 
 .card:hover {
@@ -134,7 +141,7 @@ ul {
   justify-content: center;
   background-image: url("https://images.ctfassets.net/usf1vwtuqyxm/5nViubjcRMMc9U1hsgWHXf/20cdbf8454d516804d9cae2208018289/MinaLima_Black_Family_Tapestry_wallpaper_roll.jpg");
   background-attachment: fixed;
-  padding: 2%;
+  padding: 1%;
 }
 
 .flex-container > div {
@@ -144,9 +151,10 @@ ul {
   background-position-y: -0.9em;
   margin: 1em;
   padding: 2.2em;
-  font-size: 1em;
   opacity: 0.5;
-  margin-bottom: 3em;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  height: 300px;
 }
 
 .footer {
@@ -158,10 +166,4 @@ ul {
   .mobileView {
     display: none;
   }
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-
 }

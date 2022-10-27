@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import harryPotterBookSeries from "../services/bookService.json";
 import AuthenticationAPI from "../services/characterService";
 import harryPotterLogo from "../images/harry-potter-logo.png";
+import harryPotterGlass from "../images/harry-potter-glass.png";
 import harryPotterImage from "../images/harry-potter-floating.png";
 import hogwartsBackground from "../images/bg.jpeg";
 
@@ -55,6 +56,7 @@ const HarryPotter = () => {
       </div>
 
       <div className="container">
+        <img className="hp-glass" src={harryPotterGlass} alt="Harry Potter" />
         <h1>Tribute To Harry Potter</h1>
         <h3>The Journey Of The Most Amazing Book-series Of The Millenium</h3>
 
