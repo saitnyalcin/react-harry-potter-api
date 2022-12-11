@@ -1,17 +1,17 @@
 {
-  "files": {
-    "main.css": "/react-harry-potter-api/static/css/main.14955e0f.css",
-    "main.js": "/react-harry-potter-api/static/js/main.18b825d6.js",
-    "static/media/harry-potter-floating.png": "/react-harry-potter-api/static/media/harry-potter-floating.fe02e81537ed8dfb51d2.png",
-    "static/media/harry-potter-logo.png": "/react-harry-potter-api/static/media/harry-potter-logo.4ec78704d007a53565f3.png",
-    "static/media/bg.jpeg": "/react-harry-potter-api/static/media/bg.d56de94095f66e8b8404.jpeg",
-    "static/media/harry-potter-glass.png": "/react-harry-potter-api/static/media/harry-potter-glass.718ecc83d9005214160f.png",
-    "index.html": "/react-harry-potter-api/index.html",
-    "main.14955e0f.css.map": "/react-harry-potter-api/static/css/main.14955e0f.css.map",
-    "main.18b825d6.js.map": "/react-harry-potter-api/static/js/main.18b825d6.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.14955e0f.css",
-    "static/js/main.18b825d6.js"
-  ]
+  "main.css": "/react-harry-potter-api/static/css/main.e209e82c.chunk.css",
+  "main.js": "/react-harry-potter-api/static/js/main.70d9a54d.chunk.js",
+  "main.js.map": "/react-harry-potter-api/static/js/main.70d9a54d.chunk.js.map",
+  "static/js/1.eff0c3b9.chunk.js": "/react-harry-potter-api/static/js/1.eff0c3b9.chunk.js",
+  "static/js/1.eff0c3b9.chunk.js.map": "/react-harry-potter-api/static/js/1.eff0c3b9.chunk.js.map",
+  "runtime~main.js": "/react-harry-potter-api/static/js/runtime~main.86ca33b2.js",
+  "runtime~main.js.map": "/react-harry-potter-api/static/js/runtime~main.86ca33b2.js.map",
+  "static/media/harry-potter-logo.png": "/react-harry-potter-api/static/media/harry-potter-logo.457e2992.png",
+  "static/media/harry-potter-glass.png": "/react-harry-potter-api/static/media/harry-potter-glass.9e281b65.png",
+  "static/media/harry-potter-floating.png": "/react-harry-potter-api/static/media/harry-potter-floating.4fbde265.png",
+  "static/media/bg.jpeg": "/react-harry-potter-api/static/media/bg.0e9d704b.jpeg",
+  "static/css/main.e209e82c.chunk.css.map": "/react-harry-potter-api/static/css/main.e209e82c.chunk.css.map",
+  "index.html": "/react-harry-potter-api/index.html",
+  "precache-manifest.651893b70c82b409b4b38f8b0ee3b32b.js": "/react-harry-potter-api/precache-manifest.651893b70c82b409b4b38f8b0ee3b32b.js",
+  "service-worker.js": "/react-harry-potter-api/service-worker.js"
 }
