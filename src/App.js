@@ -3,7 +3,7 @@ import Lottie from "react-lottie";
 import animationData from "../src/lotties/leviosa.json";
 import "./App.css";
 import HarryPotter from "./components/HarryPotter";
-import "./style.scss";
+import "./style.css";
 import "./spark.css";
 
 const App = () => {

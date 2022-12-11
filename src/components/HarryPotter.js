@@ -10,7 +10,11 @@ const HarryPotter = () => {
   const [data, setData] = useState([]); // set state for the character data
 
   async function callHarryPotterApi() {
-    await fetch(AuthenticationAPI.API_URL())
+    await fetch(AuthenticationAPI.API_URL(), {  
+      method: 'GET',  
+      crossorigin: true,  
+      "Allow-Access-Cross-Origin": "*" 
+    })
       .then((response) => response.json())
       .then((data) => setData(data))
       .then((result) => {

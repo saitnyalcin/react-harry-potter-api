@@ -1,6 +1,6 @@
 const characterService = {
   API_URL() {
-    return "https://hp-api.herokuapp.com/api/characters";
+    return "https://hp-api.onrender.com/api/characters";
   },
 };
 
